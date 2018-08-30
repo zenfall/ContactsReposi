@@ -30,7 +30,8 @@
         </style>
     </head>
     <body>
-        <div><a href="index.php?op=new"><i class="far fa-plus-square"></i> Nouveau contact</a></div>
+        <div><a href="index.php?op=new"><i class="far fa-plus-square"></i> Deconnection</a></div>
+        <div><a href="menu.php?op=new"><i class="far fa-plus-square"></i> Nouveau contact</a></div>
         <table class="contacts" border="0" cellpadding="0" cellspacing="0">
             <thead>
                 <tr>

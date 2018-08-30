@@ -60,7 +60,7 @@ class ContactsController {
 
             try {
                 $this->contactsService->createNewContact($name, $phone, $email, $address);
-                $this->redirect('index.php');
+                $this->redirect('menu.php');
                 return;
             } catch (ValidationException $e) {
                 $errors = $e->getErrors();
@@ -78,7 +78,7 @@ class ContactsController {
         
         $this->contactsService->deleteContact($id);
         
-        $this->redirect('index.php');
+        $this->redirect('menu.php');
     }
     
     public function showContact() {
